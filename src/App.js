@@ -19,7 +19,7 @@ function App() {
     const i = 0;
     // This block will be executed 100 times.
     setInterval(function () {
-      if (i == 100) clearInterval(this);
+      if (i === 100) clearInterval(this);
       else callAPI();
     }, 60000);
   } // End
